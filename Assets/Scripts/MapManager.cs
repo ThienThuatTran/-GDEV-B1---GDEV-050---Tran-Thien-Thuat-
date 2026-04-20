@@ -22,4 +22,9 @@ public class MapManager : MonoBehaviour
     {
         return new Vector2(leftBoundary, rightBoundary);
     }
+
+    public float GetAboveBoundary() => aboveBoundary;
+    public float GetBelowBoundary() => belowBoundary;
+    public float GetLeftBoundary() => leftBoundary;
+    public float GetRightBoundary() => rightBoundary;
 }
